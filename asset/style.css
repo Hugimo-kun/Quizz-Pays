@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    margin-top: 3%;
+}
+
+#gameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#randomPic {
+    width: 700px;
+}
+
+#clueButton {
+    width: 50px;
+    margin-top: 10px;
+}
+
+#cluePic {
+    width: 30px;
+}
+
+#answerDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#boutonSubmit {
+    width: 50%;
+    align-self: center;
+    margin-top: 3px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.info p {
+    margin: 10px;
+}
+
+.scoreDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

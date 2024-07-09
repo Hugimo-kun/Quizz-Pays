@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz Pays</title>
+    <link rel="stylesheet" href="asset/style.css" />
+  </head>
+  <body>
+    <h1>Quizz Pays</h1>
+    <div id="container">
+      <div id="gameDiv">
+        <h2>Devines le pays</h2>
+        <p>Difficulté de niveau <span id="difficulty"></span></p>
+        <img src="" alt="Pays aléatoire" id="randomPic" />
+        <button id="clueButton">
+          <img src="asset/img/ampoule.svg" alt="Indice" id="cluePic" />
+        </button>
+        <p id="clue"></p>
+        <div id="answerDiv">
+          <input type="text" name="answer" id="answer" />
+          <button type="submit" id="boutonSubmit" disabled>Soumettre</button>
+        </div>
+        <p id="try"></p>
+      </div>
+      <div class="info">
+        <h3>Règles</h3>
+        <div>
+          <p>
+            Une image apparaît, vous avez trois chances pour deviner le pays. Un
+            pays n'apparaît qu'une seule fois par manche.
+          </p>
+          <p>Vous récupérez toutes vos vies à chaque manche</p>
+          <p id="rulePoints"></p>
+        </div>
+        <div class="scoreDiv">
+          <p>Votre score :</p>
+          <p id="score"></p>
+        </div>
+        <p id="level"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
